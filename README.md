@@ -24,7 +24,9 @@ Classical shrinkage priors such as the regularized horseshoe (RHS) treat all var
 
 BUGS augments the regularized horseshoe prior with a **guidance mechanism** based on marginal scores:
 
-`z*_j → exp(η z*_j)`
+<p align="center">
+  <img src="https://latex.codecogs.com/png.latex?\tilde{z}_j^{*}\rightarrow\exp(\eta\tilde{z}_j^{*})" />
+</p>
 
 which adaptively modulates shrinkage.
 
@@ -34,27 +36,15 @@ which adaptively modulates shrinkage.
 
 ### Hierarchical formulation
 
-`β_j | λ_j, τ, c, η, σ² ~ N(0, σ² κ̃_j²)`
+<p align="center">
+  <img src="https://latex.codecogs.com/png.latex?\beta_j\mid\lambda_j,\tau,c,\eta,\sigma^2\sim\mathcal{N}(0,\sigma^2\tilde{\kappa}_j^2)" />
+</p>
 
 where
 
-`κ̃_j² = (c² τ² λ_j² exp(η z*_j)) / (c² + τ² λ_j² exp(η z*_j))`
-
-and
-
-- λ_j : local scale  
-- τ : global scale  
-- c² : slab parameter (RHS)  
-- η : guidance strength  
-
----
-
-### Intuition
-
-- Large z*_j → **less shrinkage**  
-- Small z*_j → **strong shrinkage**  
-- η = 0 → reduces to standard RHS  
-
+<p align="center">
+  <img src="https://latex.codecogs.com/png.latex?\tilde{\kappa}_j^2=\frac{c^2\tau^2\lambda_j^2\exp(\eta\tilde{z}_j^{*})}{c^2+\tau^2\lambda_j^2\exp(\eta\tilde{z}_j^{*})}" />
+</p>
 ## 📌 Model Diagram
 
 <p align="center">
