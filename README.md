@@ -4,7 +4,15 @@ A scalable Bayesian framework for high-dimensional regression that integrates **
 
 - strong control of false discoveries  
 - near-perfect signal recovery  
-- scalability to ultra-high dimensions (\(p \sim 10^6\))  
+- scalability to ultra-high dimensions $p \approx 10^6$
+
+---
+
+## 📚 Citation
+
+> Das, P. (2026).  
+> *Bayesian Global--Local Shrinkage with Univariate Guidance for Ultra-High-Dimensional Regression*.  
+> ArXiv (forthcoming).
 
 ---
 
