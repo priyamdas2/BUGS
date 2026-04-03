@@ -25,7 +25,7 @@ Classical shrinkage priors such as the regularized horseshoe (RHS) treat all var
 BUGS augments the regularized horseshoe prior with a **guidance mechanism** based on marginal scores:
 
 $$
-\tilde z_j^* \;\longrightarrow \exp(\eta \tilde z_j^*)
+\tilde z_j^* \longrightarrow \exp(\eta \tilde z_j^*)
 $$
 
 which adaptively modulates shrinkage.
