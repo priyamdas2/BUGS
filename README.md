@@ -44,10 +44,12 @@ $$
 where
 
 $$
-\tilde \kappa_j^2 =
-\frac{c^2 \tau^2 \lambda_j^2 \exp(\eta \tilde z_j^*)}
-     {c^2 + \tau^2 \lambda_j^2 \exp(\eta \tilde z_j^*)}
+\tilde{\kappa}_{j}^{2} =
+\frac{c^{2}\tau^{2}\lambda_{j}^{2}\exp(\eta\,\tilde{z}_{j}^{*})}
+     {c^{2} + \tau^{2}\lambda_{j}^{2}\exp(\eta\,\tilde{z}_{j}^{*})}
 $$
+
+and
 
 and
 
