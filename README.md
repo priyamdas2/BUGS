@@ -25,7 +25,7 @@ Classical shrinkage priors such as the regularized horseshoe (RHS) treat all var
 BUGS augments the regularized horseshoe prior with a **guidance mechanism** based on marginal scores:
 
 $$
-\tilde{z}_j^{*} \;\longrightarrow\; \exp(\eta \tilde{z}_j^{*})
+\tilde z_j^* \;\longrightarrow\; \exp(\eta \tilde z_j^*)
 $$
 
 which adaptively modulates shrinkage.
@@ -45,8 +45,8 @@ where
 
 $$
 \tilde{\kappa}_j^2 =
-\frac{c^2 \tau^2 \lambda_j^2 \exp(\eta \tilde{z}_j^{*})}
-{c^2 + \tau^2 \lambda_j^2 \exp(\eta \tilde{z}_j^{*})}
+\frac{c^2 \tau^2 \lambda_j^2 \exp(\eta \tilde z_j^*)}
+{c^2 + \tau^2 \lambda_j^2 \exp(\eta \tilde z_j^*)}
 $$
 
 and
@@ -60,11 +60,11 @@ and
 
 ### Intuition
 
-- Large $\tilde{z}_j^{*}$ → **less shrinkage**  
-- Small $\tilde{z}_j^{*}$ → **strong shrinkage**  
+- Large $\tilde z_j^*$ → **less shrinkage**  
+- Small $\tilde z_j^*$ → **strong shrinkage**  
 - $\eta = 0$ → reduces to the standard RHS
----
 
+---
 ## 📈 Effect of Guidance
 
 <p align="center">
