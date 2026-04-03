@@ -68,13 +68,13 @@ and
 
 ## 📌 Model Diagram
 
-![BUGS structure](images/Figure_BUGS_prior_plot)
+![BUGS structure](images/Figure_BUGS_prior_plot.jpg)
 
 ---
 
 ## 📈 Effect of Guidance
 
-![Guidance effect](images/Figure_intro_3x1_panel_n_100_p_10_rep_1)
+![Guidance effect](images/Figure_intro_3x1_panel_n_100_p_10_rep_1.jpg)
 
 - Guidance selectively inflates variance for promising variables  
 - Produces stronger separation between signal and noise  
