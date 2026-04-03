@@ -1,4 +1,4 @@
-# 🚀 BUGS: Bayesian Univariate-Guided Sparse Regression
+# BUGS: Bayesian Univariate-Guided Sparse Regression
 
 A scalable Bayesian framework for high-dimensional regression that integrates **marginal signal guidance** with **global–local shrinkage** to achieve:
 
