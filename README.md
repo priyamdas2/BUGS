@@ -116,17 +116,12 @@ To scale to ultra-high dimensions, we introduce **BUGS-Active**:
 - reduce complexity from \(O(p)\) to \(O(|A_n|)\)  
 
 ---
-
-### Performance with different active sizes
+## Full BUGS vs Active Approximation
+### BUGS-Active with different active sizes and full BUGS
 
 ![Active 20](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_20.png)  
 ![Active 50](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_50.png)  
 ![Active 100](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_100.png)
-
----
-
-### Full BUGS vs Active Approximation
-
 ![Full BUGS](images/Output_BUGS_forest_density_top5_n_200_p_1000_rep_1.png)
 
 - Maintains high accuracy  
