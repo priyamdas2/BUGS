@@ -68,7 +68,9 @@ and
 
 ## 📌 Model Diagram
 
-![BUGS structure](images/Figure_BUGS_prior_plot.jpg)
+<p align="center">
+  <img src="images/Figure_BUGS_prior_plot.jpg" width="60%" />
+</p>
 
 ---
 
@@ -83,7 +85,9 @@ and
 
 ## 📊 Posterior Behavior
 
-![Posterior densities](images/BUGS_density_default_scen_1_rep_1_n_200_p_1000.png)
+<p align="center">
+  <img src="BUGS_density_default_scen_1_rep_1_n_200_p_1000.png" width="60%" />
+</p>
 
 - Signals: well-separated posterior mass  
 - Noise: sharply concentrated at zero  
