@@ -6,8 +6,6 @@ A scalable Bayesian framework for high-dimensional regression that integrates **
 - near-perfect signal recovery  
 - scalability to ultra-high dimensions $p \approx 10^6$
 
----
-
 ## 📚 Citation
 
 > Das, P. (2026).  
