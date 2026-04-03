@@ -51,10 +51,6 @@ $$
 
 and
 
-and
-
-and
-
 - $\lambda_j$: local shrinkage parameter  
 - $\tau$: global shrinkage parameter  
 - $c^2$: slab (regularization) parameter  
@@ -117,7 +113,7 @@ and
 To scale to ultra-high dimensions, we introduce **BUGS-Active**:
 
 - restrict updates to a data-adaptive active set  
-- reduce complexity from \(O(p)\) to \(O(|A_n|)\)  
+- reduce complexity from $O(p)$ to $O(|A_n|)$
 
 ---
 ## Full BUGS vs Active Approximation
