@@ -76,7 +76,9 @@ and
 
 ## 📈 Effect of Guidance
 
-![Guidance effect](images/Figure_prior_mechanism_1x2.png)
+<p align="center">
+  <img src="images/Figure_prior_mechanism_1x2.png" width="75%" />
+</p>
 
 - Guidance selectively inflates variance for promising variables  
 - Produces stronger separation between signal and noise  
@@ -86,7 +88,7 @@ and
 ## 📊 Posterior Behavior
 
 <p align="center">
-  <img src="BUGS_density_default_scen_1_rep_1_n_200_p_1000.png" width="60%" />
+  <img src="images/BUGS_density_default_scen_1_rep_1_n_200_p_1000.png" width="60%" />
 </p>
 
 - Signals: well-separated posterior mass  
