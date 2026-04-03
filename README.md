@@ -45,16 +45,9 @@ where
 
 $$
 \tilde \kappa_j^2 =
-\frac{c^2 \tau^2 \lambda_j^2 \exp(\eta \tilde z_j^*)}
-     {c^2 + \tau^2 \lambda_j^2 \exp(\eta \tilde z_j^*)}
+\frac{c^2 \tau^2 \lambda_j^2 \exp(\eta \tilde z_{j}^{*})}
+     {c^2 + \tau^2 \lambda_j^2 \exp(\eta \tilde z_{j}^{*})}
 $$
-
-and
-
-- $\lambda_j$: local shrinkage parameter  
-- $\tau$: global shrinkage parameter  
-- $c^2$: slab (regularization) parameter  
-- $\eta$: guidance strength parameter  
 and
 
 - $\lambda_j$: local shrinkage parameter  
