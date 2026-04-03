@@ -136,31 +136,46 @@ To scale to ultra-high dimensions, we introduce **BUGS-Active**:
 
 ## 🧬 Real Data Application: DNA Methylation
 
-### Posterior effects (top CpGs)
+We apply BUGS-Active to a large-scale DNA methylation dataset  
+($n = 1051$, $p \approx 8.6 \times 10^5$ CpG sites), demonstrating:
 
-![CpG effects](images/Output_R_forest_density_top10_save10_recompute1_cut0.005_CpGs.png)
-
----
-
-### Posterior inclusion probabilities
-
-![CpG probabilities](images/Output_R_selection_strength_top10_recompute1_cut0.005_thr0.01.png)
+- Accurate prediction of age from methylation profiles  
+- Sparse and interpretable selection of biologically relevant CpGs  
+- Stable posterior inference in ultra-high dimensions  
 
 ---
 
-### Predictive performance
+### Key Results
 
-![Predicted vs true](images/Output_R_observed_vs_predicted_violin_top10_fromK200_standardized_recompute1_cut0.005_thr0.01.png)
+<p align="center">
+  <img src="images/Output_R_forest_density_top10_save10_recompute1_cut0.005_CpGs.png" width="45%" />
+  <img src="images/Output_R_selection_strength_top10_recompute1_cut0.005_thr0.01.png" width="45%" />
+</p>
 
+<p align="center">
+  <img src="images/Output_R_observed_vs_predicted_violin_top10_fromK200_standardized_recompute1_cut0.005_thr0.01.png" width="45%" />
+  <img src="images/Output_R_threshold_sensitivity_top10_recompute1_cut0.005_thr0.01.png" width="45%" />
+</p>
 
 ---
 
-### Threshold stability
+### Interpretation
 
-![Threshold curves](images/Output_R_threshold_sensitivity_top10_recompute1_cut0.005_thr0.01.png)
+- **Top-left (Posterior effects):**  
+  Strong, well-separated coefficient estimates with credible intervals excluding zero  
+
+- **Top-right (Inclusion probabilities):**  
+  Near-unit posterior selection probabilities for top CpGs, indicating robust signals  
+
+- **Bottom-left (Predictive performance):**  
+  High agreement between predicted and observed age across developmental stages  
+
+- **Bottom-right (Threshold stability):**  
+  Clear separation between strong and moderate signals under varying selection thresholds  
 
 ---
 
+These results highlight that BUGS-Active achieves **accurate prediction, stable uncertainty quantification, and interpretable variable selection** in ultra-high-dimensional genomic settings.
 ## 🏆 Key Advantages
 
 ### Statistical
