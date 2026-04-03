@@ -176,8 +176,8 @@ To scale to ultra-high dimensions, we introduce **BUGS-Active**:
 - reduce complexity from $O(p)$ to $O(s)$, where $s \ll p$ is the active set size
 
 ---
-## Full BUGS vs Active Approximation
-### BUGS-Active with different active sizes and full BUGS
+### Full BUGS vs Active Approximation
+#### BUGS-Active with different active sizes and full BUGS
 
 <p align="center">
   <img src="images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_20.png" width="45%" />
