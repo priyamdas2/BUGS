@@ -74,7 +74,7 @@ and
 
 ## 📈 Effect of Guidance
 
-![Guidance effect](images/Figure_intro_3x1_panel_n_100_p_10_rep_1.jpg)
+![Guidance effect](images/Figure_prior_mechanism_1x2.png)
 
 - Guidance selectively inflates variance for promising variables  
 - Produces stronger separation between signal and noise  
@@ -83,7 +83,7 @@ and
 
 ## 📊 Posterior Behavior
 
-![Posterior densities](images/posterior_densities.png)
+![Posterior densities](images/BUGS_density_default_scen_1_rep_1_n_200_p_1000.png)
 
 - Signals: well-separated posterior mass  
 - Noise: sharply concentrated at zero  
@@ -92,7 +92,7 @@ and
 
 ## 🔁 MCMC Diagnostics
 
-![Trace plots](images/trace_plots.png)
+![Trace plots](images/BUGS_traceplots_default_scen_1_rep_1_n_200_p_1000.png)
 
 - Stable mixing across parameters  
 - No pathological behavior in high dimensions  
@@ -101,7 +101,7 @@ and
 
 ## 🧪 Signal vs Noise Separation
 
-![Marginal + local scales + exceedance](images/marginal_local_exceedance.png)
+![Marginal + local scales + exceedance](images/Figure_intro_3x1_panel_n_100_p_10_rep_1.jpg)
 
 - True variables: high posterior support  
 - Noise variables: aggressively shrunk  
@@ -119,15 +119,15 @@ To scale to ultra-high dimensions, we introduce **BUGS-Active**:
 
 ### Performance with different active sizes
 
-![Active 20](images/bugs_active_20.png)  
-![Active 50](images/bugs_active_50.png)  
-![Active 100](images/bugs_active_100.png)
+![Active 20](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_20.png)  
+![Active 50](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_50.png)  
+![Active 100](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_100.png)
 
 ---
 
 ### Full BUGS vs Active Approximation
 
-![Full BUGS](images/bugs_full.png)
+![Full BUGS](images/Output_BUGS_forest_density_top5_n_200_p_1000_rep_1.png)
 
 - Maintains high accuracy  
 - Dramatically reduces computation time  
@@ -138,31 +138,26 @@ To scale to ultra-high dimensions, we introduce **BUGS-Active**:
 
 ### Posterior effects (top CpGs)
 
-![CpG effects](images/cpg_effects.png)
+![CpG effects](images/Output_R_forest_density_top10_save10_recompute1_cut0.005_CpGs.png)
 
 ---
 
 ### Posterior inclusion probabilities
 
-![CpG probabilities](images/cpg_probabilities.png)
+![CpG probabilities](images/Output_R_selection_strength_top10_recompute1_cut0.005_thr0.01.png)
 
 ---
 
 ### Predictive performance
 
-![Predicted vs true](images/predicted_vs_true.png)
+![Predicted vs true](images/Output_R_observed_vs_predicted_violin_top10_fromK200_standardized_recompute1_cut0.005_thr0.01.png)
 
----
-
-### Distribution across age groups
-
-![Age violin](images/age_violin.png)
 
 ---
 
 ### Threshold stability
 
-![Threshold curves](images/threshold_curves.png)
+![Threshold curves](images/Output_R_threshold_sensitivity_top10_recompute1_cut0.005_thr0.01.png)
 
 ---
 
@@ -197,10 +192,7 @@ BUGS provides a **principled and scalable Bayesian solution** for high-dimension
 
 ## 📄 Reference
 
-(Coming soon — manuscript under submission)
+(Coming soon — manuscript under review)
 
 ---
 
-## ⭐ If you find this useful
-
-Please consider starring the repository and citing the work once available.
