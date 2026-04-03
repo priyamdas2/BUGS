@@ -1,0 +1,21 @@
+index,var,truth_label,post_prob_abs_gt_thresh,model,model_truth
+1,X1,True variable,1,Guided,Guided | True variable
+2,X2,True variable,1,Guided,Guided | True variable
+3,X3,True variable,1,Guided,Guided | True variable
+4,X4,True variable,1,Guided,Guided | True variable
+5,X5,True variable,1,Guided,Guided | True variable
+6,X6,Noise variable,0.40625,Guided,Guided | Noise variable
+7,X7,Noise variable,0.42125,Guided,Guided | Noise variable
+8,X8,Noise variable,0.34625,Guided,Guided | Noise variable
+9,X9,Noise variable,0.45875,Guided,Guided | Noise variable
+10,X10,Noise variable,0.24375,Guided,Guided | Noise variable
+1,X1,True variable,1,Unguided,Unguided | True variable
+2,X2,True variable,1,Unguided,Unguided | True variable
+3,X3,True variable,1,Unguided,Unguided | True variable
+4,X4,True variable,1,Unguided,Unguided | True variable
+5,X5,True variable,1,Unguided,Unguided | True variable
+6,X6,Noise variable,0.48625,Unguided,Unguided | Noise variable
+7,X7,Noise variable,0.52125,Unguided,Unguided | Noise variable
+8,X8,Noise variable,0.5175,Unguided,Unguided | Noise variable
+9,X9,Noise variable,0.50125,Unguided,Unguided | Noise variable
+10,X10,Noise variable,0.50625,Unguided,Unguided | Noise variable
