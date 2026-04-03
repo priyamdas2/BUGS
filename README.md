@@ -98,7 +98,9 @@ and
 
 ## 🔁 MCMC Diagnostics
 
-![Trace plots](images/BUGS_traceplots_default_scen_1_rep_1_n_200_p_1000.png)
+<p align="center">
+  <img src="images/BUGS_traceplots_default_scen_1_rep_1_n_200_p_1000.png" width="60%" />
+</p>
 
 - Stable mixing across parameters  
 - No pathological behavior in high dimensions  
@@ -107,7 +109,9 @@ and
 
 ## 🧪 Signal vs Noise Separation
 
-![Marginal + local scales + exceedance](images/Figure_intro_3x1_panel_n_100_p_10_rep_1.jpg)
+<p align="center">
+  <img src="images/Figure_intro_3x1_panel_n_100_p_10_rep_1.jpg" width="60%" />
+</p>
 
 - True variables: high posterior support  
 - Noise variables: aggressively shrunk  
