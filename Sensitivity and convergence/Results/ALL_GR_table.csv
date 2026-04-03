@@ -1,0 +1,11 @@
+Parameter,ParamType,Index,Rhat,NumChains,NumDrawsUsed
+tau,hyperparameter,NaN,1.02067002317773,4,800
+c2,hyperparameter,NaN,0.999606771527618,4,800
+eta,hyperparameter,NaN,1.0005432692394,4,800
+sigma2,hyperparameter,NaN,1.00118811556821,4,800
+beta_1,signal_beta,1,1.00040459992058,4,800
+beta_5,signal_beta,5,0.999440095306737,4,800
+beta_10,signal_beta,10,1.00021748034684,4,800
+beta_11,noise_beta,11,1.00091394534554,4,800
+beta_506,noise_beta,506,0.999466916639295,4,800
+beta_1000,noise_beta,1000,1.00049038074107,4,800
