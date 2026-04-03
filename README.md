@@ -119,10 +119,15 @@ To scale to ultra-high dimensions, we introduce **BUGS-Active**:
 ## Full BUGS vs Active Approximation
 ### BUGS-Active with different active sizes and full BUGS
 
-![Active 20](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_20.png)  
-![Active 50](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_50.png)  
-![Active 100](images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_100.png)
-![Full BUGS](images/Output_BUGS_forest_density_top5_n_200_p_1000_rep_1.png)
+<p align="center">
+  <img src="images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_20.png" width="45%" />
+  <img src="images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_50.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="images/Output_BUGS_Active_forest_density_top5_n_200_p_1000_rep_1_GuidanceKeep_100.png" width="45%" />
+  <img src="images/Output_BUGS_forest_density_top5_n_200_p_1000_rep_1.png" width="45%" />
+</p>
 
 - Maintains high accuracy  
 - Dramatically reduces computation time  
