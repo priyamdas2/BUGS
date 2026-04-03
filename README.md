@@ -113,7 +113,7 @@ and
 To scale to ultra-high dimensions, we introduce **BUGS-Active**:
 
 - restrict updates to a data-adaptive active set  
-- reduce complexity from $O(p)$ to $O(|A_n|)$
+- reduce complexity from $O(p)$ to $O(s)$, where $s \ll p$ is the active set size
 
 ---
 ## Full BUGS vs Active Approximation
@@ -184,7 +184,7 @@ These results highlight that BUGS-Active achieves **accurate prediction, stable 
 - Adaptive shrinkage driven by data  
 
 ### Computational
-- Scales to \(p \sim 10^6\)  
+- Scales to dimensions up to $p \approx 10^6$
 - Active-set MCMC  
 - Efficient posterior updates  
 
