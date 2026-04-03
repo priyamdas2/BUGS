@@ -85,6 +85,66 @@ and
 - Noise: sharply concentrated at zero  
 
 ---
+## 📐 Theoretical Guarantees
+
+The BUGS framework is supported by rigorous theoretical analysis under high-dimensional regimes. The results characterize both the behavior of the guided shrinkage prior and the properties of the resulting posterior distribution.
+
+### Posterior contraction
+
+Under standard sparsity and design conditions, the posterior distribution concentrates around the true regression parameter at near-minimax rates:
+
+- Contraction rate: $s_0 \log p / n$  
+- Applicable in high-dimensional settings with $p \gg n$  
+
+This ensures accurate estimation and prediction even when the number of variables is large relative to sample size.
+
+---
+
+### Support recovery
+
+The proposed prior enables reliable identification of relevant variables:
+
+- High probability of selecting true signals (high TPR)  
+- Strong control of false discoveries (low FDR)  
+- Clear separation between signal and noise coefficients  
+
+This behavior arises from the adaptive shrinkage mechanism induced by marginal guidance.
+
+---
+
+### Role of marginal guidance
+
+Theoretical analysis distinguishes two regimes:
+
+- **Uninformative guidance:**  
+  When marginal signals do not separate variables, the method reduces to standard global–local shrinkage behavior.
+
+- **Informative guidance:**  
+  When marginal signals exhibit separation, guidance amplifies differences between signal and noise, leading to improved support recovery and sharper posterior concentration.
+
+---
+
+### Active-set approximation (BUGS-Active)
+
+For ultra-high-dimensional settings, the active-set MCMC approximation preserves key statistical properties:
+
+- Sure screening: relevant variables are retained with high probability  
+- Controlled active set size: $s \ll p$  
+- Posterior contraction on reduced subspace  
+
+This yields substantial computational gains while maintaining statistical accuracy.
+
+---
+
+### Summary
+
+Together, these results show that BUGS provides:
+
+- statistically optimal estimation in high dimensions  
+- reliable variable selection with controlled false discoveries  
+- scalable inference without sacrificing theoretical guarantees
+
+---
 
 ## 🔁 MCMC Diagnostics
 
