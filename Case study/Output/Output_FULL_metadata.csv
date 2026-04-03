@@ -1,0 +1,2 @@
+n,p,seed,keep_n_upto,keep_p_upto,beta_summary,sel_thresh,topK,comp_time_sec,y_mean_raw,y_sd_raw,intercept_mean_raw,intercept_median_raw,n_selected_mean,n_selected_median,n_selected_ci,niter,burnin,thin,tau0,sigma_eta,Cz,a_c,b_c,a_sigma,b_sigma,save_full_beta,max_p_full_save,save_top_beta,active_beta_thresh,active_cap,min_active,guidance_keep,lambda2_inactive
+1051,865859,1,1051,865859,mean,0.01,200,28723.052102,36.7592768791627,28.0849747501167,-221.438,117.0998,21,8,5,5000,1000,5,0.0005,1e-06,2,10,100,2,2,1,865859,2000,0.0005,20000,10000,10000,0.001
