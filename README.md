@@ -10,7 +10,7 @@ A scalable Bayesian framework for high-dimensional regression that integrates **
 
 > Das, P. (2026).  
 > *Bayesian Global--Local Shrinkage with Univariate Guidance for Ultra-High-Dimensional Regression*.  
-> arXiv preprint. [https://arxiv.org/abs/2604.04964](https://arxiv.org/abs/2604.04964)
+> **ArXiv**: [https://arxiv.org/abs/2604.04964](https://arxiv.org/abs/2604.04964)
 
 ---
 
