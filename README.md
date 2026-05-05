@@ -245,7 +245,7 @@ These results highlight that BUGS-Active achieves **accurate prediction, stable 
 ## 🏆 Key Advantages
 
 ### Statistical
-- Near-perfect signal recovery  
+- Improved signal recovery  
 - Strong FDR control  
 - Adaptive shrinkage driven by data  
 
