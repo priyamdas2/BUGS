@@ -9,6 +9,9 @@ p_here <- 100000
 methods <- c(
   "LASSO",
   "UniLasso",
+  "SIS_LASSO",
+  "SIS_SCAD",
+  "SIS_RHS",
   "BUGSactive"
 )
 
@@ -16,6 +19,9 @@ methods <- c(
 labels <- c(
   "LASSO",
   "UniLASSO",
+  "SIS_LASSO",
+  "SIS_SCAD",
+  "SIS_RHS",
   "BUGS-Active"
 )
 
