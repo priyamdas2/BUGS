@@ -13,6 +13,9 @@ methods <- c(
   "SSLASSO",
   "BayesRegALL2",
   "BayesRegALL3",
+  "SIS_LASSO",
+  "SIS_SCAD",
+  "SIS_RHS",
   "BUGS",
   "BUGSactive"
 )
@@ -25,6 +28,9 @@ labels <- c(
   "SSLASSO",
   "Horseshoe",
   "Horseshoe+",
+  "SIS-LASSO",
+  "SIS-SCAD",
+  "SIS-RHS",
   "BUGS",
   "BUGS-Active"
 )
