@@ -6,14 +6,10 @@ scenario_here <- 2
 n_here <- 500
 p_here <- 1000000
 
-methods <- c(
-  "BUGSactive"
-)
+methods <- c("SIS_LASSO", "SIS_SCAD", "SIS_RHS", "BUGSactive")
 
 
-labels <- c(
-  "BUGS-Active"
-)
+labels <- c("SIS-LASSO", "SIS-SCAD", "SIS-RHS","BUGS-Active")
 
 
 
