@@ -1,0 +1,2 @@
+n,p,n_train,n_test,d_sis,rmse_test,mae_test,corr_test,r2_test,n_selected,lambda,sis_time_sec,fit_time_sec,comp_time_sec,sel_thresh,y_train_mean,y_train_sd
+1051,865859,840,211,124,4.37227586762449,3.50364523443358,0.988315656482549,0.976515767335883,74,0.000745322172530645,0.380122,0.405549,0.785671,0.01,36.5428571428571,27.9674691227741
